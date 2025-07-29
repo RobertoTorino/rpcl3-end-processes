@@ -1,0 +1,9 @@
+CompanyName=@game_play267
+FileDescription=RPCL3 End Process
+FileVersion=%%VERSION%%
+InternalName=RPCL3 End Process
+OriginalFilename=rpcl3ep.exe
+ProductName=RPCL3 End Process
+ProductVersion=%%VERSION%%
+LegalCopyright=© 2025 Philip
+Comments=Built on %%DATETIME%% | Git Tag: %%GIT_TAG%%
