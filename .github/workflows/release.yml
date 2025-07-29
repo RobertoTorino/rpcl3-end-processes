@@ -51,6 +51,9 @@ jobs:
 
           # --- Compile ---
           & $ahkCompiler /in $input /out $output /icon $icon /base $baseFile
+          
+          $result = & $ahkCompiler /in $input /out $output /icon $icon /base $baseFile 2>&1
+          Write-Host "Ahk2Exe output: $result"
 
           # --- Always move EXE to $env:GITHUB_WORKSPACE ---
           $repoRoot = $env:GITHUB_WORKSPACE

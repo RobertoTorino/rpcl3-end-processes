@@ -6,4 +6,4 @@ OriginalFilename=rpcl3ep.exe
 ProductName=RPCL3 End Process
 ProductVersion=%%VERSION%%
 LegalCopyright=© 2025 Philip
-Comments=Built on 20250720_21 | Git Tag: %%GIT_TAG%%
+Comments=Built on 20250729_13 | Git Tag: %%GIT_TAG%%
