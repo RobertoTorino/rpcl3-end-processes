@@ -65,7 +65,7 @@ jobs:
 
           # Deep magic: if not found, check hardcoded place and copy
           if (!(Test-Path $finalExe)) {
-            $knownGood = "D:\a\rpcl3-end-process\rpcl3-end-process\rpcl3ep.exe"
+            $knownGood = "D:\a\rpcl3-end-processes\rpcl3-end-processes\rpcl3ep.exe"
             if (Test-Path $knownGood) {
               Write-Host ":: Found EXE at $knownGood after all! Copying to $finalExe"
               Copy-Item $knownGood $finalExe -Force
